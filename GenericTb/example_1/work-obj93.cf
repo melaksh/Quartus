@@ -1,0 +1,10 @@
+v 3
+file . "TwoBitAdder.vhd" "20170129103115.000" "20170129162102.066":
+  entity twobitadder at 1( 0) + 0 on 15;
+  architecture formulas of twobitadder at 5( 88) + 0 on 16;
+file . "Testbench.vhd" "20170129103115.000" "20170129162101.911":
+  entity testbench at 1( 0) + 0 on 11;
+  architecture behave of testbench at 6( 66) + 0 on 12;
+file . "DUT.vhd" "20170129103115.000" "20170129162102.036":
+  entity dut at 4( 115) + 0 on 13;
+  architecture dutwrap of dut at 9( 243) + 0 on 14;

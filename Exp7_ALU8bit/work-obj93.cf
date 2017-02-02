@@ -1,0 +1,28 @@
+v 3
+file . "ALU8bit.vhd" "20170129191854.000" "20170201110046.785":
+  entity xorgate at 1( 0) + 0 on 123;
+  architecture formulas of xorgate at 11( 132) + 0 on 124;
+  entity halfadder at 17( 246) + 0 on 125;
+  architecture formulas of halfadder at 21( 327) + 0 on 126;
+  entity fulladder at 34( 612) + 0 on 127;
+  architecture formulas of fulladder at 38( 702) + 0 on 128;
+  entity adder8bit at 57( 1237) + 0 on 129;
+  architecture formulas of adder8bit at 64( 1445) + 0 on 130;
+  entity decoder8bit at 116( 3330) + 0 on 131;
+  architecture formulas of decoder8bit at 120( 3438) + 0 on 132;
+  entity logrightshift8bit at 133( 3784) + 0 on 133;
+  architecture formulas of logrightshift8bit at 138( 3960) + 0 on 134;
+  entity logleftshift8bit at 168( 5384) + 0 on 135;
+  architecture formulas of logleftshift8bit at 173( 5558) + 0 on 136;
+  entity decoder4bit at 205( 6978) + 0 on 137;
+  architecture formulas of decoder4bit at 209( 7071) + 0 on 138;
+  entity onecomp8bit at 218( 7243) + 0 on 139;
+  architecture formulas of onecomp8bit at 222( 7366) + 0 on 140;
+  entity alu8bit at 235( 7574) + 0 on 141;
+  architecture formulas of alu8bit at 241( 7753) + 0 on 142;
+file . "DUT.vhd" "20170129185218.000" "20170201110046.695":
+  entity dut at 4( 115) + 0 on 121;
+  architecture dutwrap of dut at 9( 244) + 0 on 122;
+file . "Testbench.vhd" "20170129192030.000" "20170201110046.501":
+  entity testbench at 1( 0) + 0 on 119;
+  architecture behave of testbench at 6( 66) + 0 on 120;

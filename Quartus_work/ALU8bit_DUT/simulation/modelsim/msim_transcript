@@ -1,0 +1,75 @@
+# do DUT_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /opt/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/student/Desktop/tests/Exp7_ALU8bit/DUT.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# vcom -93 -work work {/home/student/Desktop/tests/Exp7_ALU8bit/ALU8bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORGATE
+# -- Compiling architecture Formulas of XORGATE
+# -- Compiling entity HalfAdder
+# -- Compiling architecture Formulas of HalfAdder
+# -- Compiling entity FullAdder
+# -- Compiling architecture Formulas of FullAdder
+# -- Compiling entity Adder8bit
+# -- Compiling architecture Formulas of Adder8bit
+# -- Compiling entity Decoder8bit
+# -- Compiling architecture Formulas of Decoder8bit
+# -- Compiling entity LogRightShift8bit
+# -- Compiling architecture Formulas of LogRightShift8bit
+# -- Compiling entity LogLeftShift8bit
+# -- Compiling architecture Formulas of LogLeftShift8bit
+# -- Compiling entity Decoder4bit
+# -- Compiling architecture Formulas of Decoder4bit
+# -- Compiling entity OneComp8bit
+# -- Compiling architecture Formulas of OneComp8bit
+# -- Compiling entity ALU8bit
+# -- Compiling architecture Formulas of ALU8bit
+# 
+# vcom -93 -work work {/home/student/Desktop/tests/Quartus_work/../Exp7_ALU8bit/Testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Testbench 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading work.alu8bit(formulas)
+# Loading work.decoder4bit(formulas)
+# Loading work.onecomp8bit(formulas)
+# Loading work.adder8bit(formulas)
+# Loading work.fulladder(formulas)
+# Loading work.halfadder(formulas)
+# Loading ieee.std_logic_1164(body)
+# Loading work.xorgate(formulas)
+# Loading work.logrightshift8bit(formulas)
+# Loading work.decoder8bit(formulas)
+# Loading work.logleftshift8bit(formulas)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: SUCCESS, all tests passed.
+#    Time: 40 ns  Iteration: 0  Instance: /testbench

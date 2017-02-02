@@ -1,0 +1,383 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student/Desktop/tests/Quartus_work/simulation/modelsim
+Eadder8bit
+Z1 w1485717534
+Z2 d/home/student/Desktop/tests/Quartus_work/simulation/modelsim
+Z3 8/home/student/Desktop/tests/Exp7_ALU8bit/ALU8bit.vhd
+Z4 F/home/student/Desktop/tests/Exp7_ALU8bit/ALU8bit.vhd
+l0
+L57
+V77o4DZ2jh<1636bo8kJRY0
+Z5 OV;C;10.1d;51
+31
+Z6 !s108 1485932773.097162
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/tests/Exp7_ALU8bit/ALU8bit.vhd|
+Z8 !s107 /home/student/Desktop/tests/Exp7_ALU8bit/ALU8bit.vhd|
+Z9 o-93 -work work -O0
+Z10 tExplicit 1
+!s100 ;8N:XkQmG>5o>FAUgOgk42
+!i10b 1
+Aformulas
+DEx4 work 9 adder8bit 0 22 77o4DZ2jh<1636bo8kJRY0
+l70
+L64
+VdNK0JY=jb4n^8AgKkjHjH3
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 1i=;7C1SHX>onEnNAeh]O1
+!i10b 1
+Ealu8bit
+R1
+R2
+R3
+R4
+l0
+L235
+V7A]g8mBZzkP4z>d[>?41R0
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 TcGQISgdV^_]DgFRSN4F71
+!i10b 1
+Aformulas
+DEx4 work 7 alu8bit 0 22 7A]g8mBZzkP4z>d[>?41R0
+l274
+L241
+VFeBUDU?Tn90T?La]Z]IUe2
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 j18bYzQQA2zGM3P>EEZWM3
+!i10b 1
+Edecoder4bit
+R1
+R2
+R3
+R4
+l0
+L205
+Vl@K3gGBNOhW^YdNnT?6ha1
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 []Kkl:hje3<B[82el4=mU0
+!i10b 1
+Aformulas
+DEx4 work 11 decoder4bit 0 22 l@K3gGBNOhW^YdNnT?6ha1
+l210
+L209
+V?gNczoGMfOJ>MPAf0kQa=3
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 OY16jcT4P@YdYZeW[BVlC2
+!i10b 1
+Edecoder8bit
+R1
+R2
+R3
+R4
+l0
+L116
+VIOBOYE;2e7FSbjgoVX^P^2
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 Bc8]YLl;H35^`JUZPzJ:C2
+!i10b 1
+Aformulas
+DEx4 work 11 decoder8bit 0 22 IOBOYE;2e7FSbjgoVX^P^2
+l121
+L120
+VOV[WfYY=ng^zh:nKD6L7N2
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 ;VH>BR@cfio6lIo?]cKhE1
+!i10b 1
+Edut
+Z11 w1485715938
+R2
+Z12 8/home/student/Desktop/tests/Exp7_ALU8bit/DUT.vhd
+Z13 F/home/student/Desktop/tests/Exp7_ALU8bit/DUT.vhd
+l0
+L4
+V>LSmRanF[21:cB^CAn5bZ2
+R5
+31
+Z14 !s108 1485932773.072004
+Z15 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/tests/Exp7_ALU8bit/DUT.vhd|
+Z16 !s107 /home/student/Desktop/tests/Exp7_ALU8bit/DUT.vhd|
+R9
+R10
+!s100 [eO]kANj8mT@]SQ3zL?IT0
+!i10b 1
+Adutwrap
+DEx4 work 3 dut 0 22 >LSmRanF[21:cB^CAn5bZ2
+l16
+L9
+V@RWzlMb5LT5_N@2M=>6Pz1
+R5
+31
+R14
+R15
+R16
+R9
+R10
+!s100 iYh`oND=Jn>DgT=aHU=AE1
+!i10b 1
+Efulladder
+R1
+R2
+R3
+R4
+l0
+L34
+Va`mXSJkMLoAmEce9KVdh[1
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 zfD[z=RJg@HzM;AacDNj23
+!i10b 1
+Aformulas
+DEx4 work 9 fulladder 0 22 a`mXSJkMLoAmEce9KVdh[1
+l44
+L38
+Vioi?gLc`RUHeK^V17Zd7O1
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 XXb[Ez=VUI5^ILGbG2nSf2
+!i10b 1
+Ehalfadder
+R1
+R2
+R3
+R4
+l0
+L17
+V0oSbLMfV2dGV8R^jehKn:1
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 8MM62M`aY3Aiac@NmcdZd3
+!i10b 1
+Aformulas
+DEx4 work 9 halfadder 0 22 0oSbLMfV2dGV8R^jehKn:1
+l26
+L21
+VTQ>LPid@WLi2hc4SCD6n02
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 5C3JEPO_j>L=fEg7a3W>:0
+!i10b 1
+Elogleftshift8bit
+R1
+R2
+R3
+R4
+l0
+L168
+V4k_0@W`AjH6M]V9o<NZTD3
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 iJ971jd]XBLT34:AEUA^<1
+!i10b 1
+Aformulas
+DEx4 work 16 logleftshift8bit 0 22 4k_0@W`AjH6M]V9o<NZTD3
+l179
+L173
+Vog8ffZ8`W@Jm7Y8`iN1<O1
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 29FRDjRnFIXkhj[HEkllb3
+!i10b 1
+Elogrightshift8bit
+R1
+R2
+R3
+R4
+l0
+L133
+V3ESJ@Ua>d7GDmn;6dicgl0
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 M?;:<eZT0R<7omCbGA>nS1
+!i10b 1
+Aformulas
+DEx4 work 17 logrightshift8bit 0 22 3ESJ@Ua>d7GDmn;6dicgl0
+l144
+L138
+Vm>mOmlNQ00LB;>;NTc_G10
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 8JCn;O?K0l=Y@[=iFGDCC2
+!i10b 1
+Eonecomp8bit
+R1
+R2
+R3
+R4
+l0
+L218
+VjW6DoTW49li<5OUonD1^J0
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 =XEC[fL16fKVje8l_NmUo2
+!i10b 1
+Aformulas
+DEx4 work 11 onecomp8bit 0 22 jW6DoTW49li<5OUonD1^J0
+l223
+L222
+VdHS@Z0ICkFjdFQZ;2@2mP3
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 a_[GU3_UFM9hNKB_ZFHmG0
+!i10b 1
+Etestbench
+Z17 w1485717630
+Z18 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+R2
+Z19 8/home/student/Desktop/tests/Quartus_work/../Exp7_ALU8bit/Testbench.vhd
+Z20 F/home/student/Desktop/tests/Quartus_work/../Exp7_ALU8bit/Testbench.vhd
+l0
+L4
+VD@_k1JLbN1VJQedB@EgDQ3
+!s100 DfjSATjVk5;;1INQZ6cJU1
+R5
+31
+!i10b 1
+Z21 !s108 1485932773.141594
+Z22 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/tests/Quartus_work/../Exp7_ALU8bit/Testbench.vhd|
+Z23 !s107 /home/student/Desktop/tests/Quartus_work/../Exp7_ALU8bit/Testbench.vhd|
+R9
+R10
+Abehave
+R18
+DEx4 work 9 testbench 0 22 D@_k1JLbN1VJQedB@EgDQ3
+l37
+L6
+V;]J3W3b3Ide1BO3:U@3kb2
+!s100 <LWoQQZS1^gNLBWZF6z1e1
+R5
+31
+!i10b 1
+R21
+R22
+R23
+R9
+R10
+Exorgate
+R1
+R18
+Z24 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R2
+R3
+R4
+l0
+L7
+VVg^MMRK=f4Xj]WPgGUk_B2
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 cj>J2fOQTDcIQF7UFC3XN3
+!i10b 1
+Aformulas
+R18
+R24
+DEx4 work 7 xorgate 0 22 Vg^MMRK=f4Xj]WPgGUk_B2
+l12
+L11
+V53hJb3:SE@@>TSkFeGC8b3
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 SRbJ6BPg?PL9>PG09Sh;a3
+!i10b 1

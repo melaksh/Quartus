@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student/Desktop/tests/Quartus_work/FullAdder_DUT/simulation/modelsim
+Edut
+Z1 w1485685875
+Z2 d/home/student/Desktop/tests/Quartus_work/FullAdder_DUT/simulation/modelsim
+Z3 8/home/student/Desktop/tests/GenericTb/example_1/DUT.vhd
+Z4 F/home/student/Desktop/tests/GenericTb/example_1/DUT.vhd
+l0
+L4
+VF[k:@=<U=A_2M[GL=NiO22
+Z5 OV;C;10.1d;51
+31
+Z6 !s108 1485933633.555448
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/tests/GenericTb/example_1/DUT.vhd|
+Z8 !s107 /home/student/Desktop/tests/GenericTb/example_1/DUT.vhd|
+Z9 o-93 -work work -O0
+Z10 tExplicit 1
+!s100 deIAZKYSMRGT<DlM9EN1m2
+!i10b 1
+Adutwrap
+DEx4 work 3 dut 0 22 F[k:@=<U=A_2M[GL=NiO22
+l14
+L9
+V4`K01TB0n>`PF4dD_h4>40
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 COG1mW]<c5X?E4aekzMTS2
+!i10b 1
+Etestbench
+R1
+Z11 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+R2
+Z12 8/home/student/Desktop/tests/Quartus_work/FullAdder_DUT/../../GenericTb/example_1/Testbench.vhd
+Z13 F/home/student/Desktop/tests/Quartus_work/FullAdder_DUT/../../GenericTb/example_1/Testbench.vhd
+l0
+L4
+VD@_k1JLbN1VJQedB@EgDQ3
+!s100 DfjSATjVk5;;1INQZ6cJU1
+R5
+31
+!i10b 1
+Z14 !s108 1485933633.579548
+Z15 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/tests/Quartus_work/FullAdder_DUT/../../GenericTb/example_1/Testbench.vhd|
+Z16 !s107 /home/student/Desktop/tests/Quartus_work/FullAdder_DUT/../../GenericTb/example_1/Testbench.vhd|
+R9
+R10
+Abehave
+R11
+DEx4 work 9 testbench 0 22 D@_k1JLbN1VJQedB@EgDQ3
+l37
+L6
+VkJ0297db[YZlXmDi<oH`h3
+!s100 LGIN:1a4z9]cbSP8:?T:L2
+R5
+31
+!i10b 1
+R14
+R15
+R16
+R9
+R10
+Etwobitadder
+R1
+R2
+Z17 8/home/student/Desktop/tests/GenericTb/example_1/TwoBitAdder.vhd
+Z18 F/home/student/Desktop/tests/GenericTb/example_1/TwoBitAdder.vhd
+l0
+L1
+VXUgNRV6>ibADnzZNYV1D]2
+R5
+31
+Z19 !s108 1485933633.528686
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/tests/GenericTb/example_1/TwoBitAdder.vhd|
+Z21 !s107 /home/student/Desktop/tests/GenericTb/example_1/TwoBitAdder.vhd|
+R9
+R10
+!s100 TgCT2@@To5;iQF9`0VGYK3
+!i10b 1
+Aformulas
+DEx4 work 11 twobitadder 0 22 XUgNRV6>ibADnzZNYV1D]2
+l7
+L5
+Vc44035@K9E?>UzSz=dh9_1
+R5
+31
+R19
+R20
+R21
+R9
+R10
+!s100 Kb?bmBD1dBaSf7_gkST@00
+!i10b 1

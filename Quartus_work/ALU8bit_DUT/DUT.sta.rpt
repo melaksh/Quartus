@@ -1,0 +1,485 @@
+TimeQuest Timing Analyzer report for DUT
+Wed Feb  1 12:34:52 2017
+Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Clock Transfers
+ 14. Report TCCS
+ 15. Report RSKM
+ 16. Unconstrained Paths
+ 17. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 12.0 Build 178 05/31/2012 SJ Web Edition ;
+; Revision Name      ; DUT                                              ;
+; Device Family      ; MAX V                                            ;
+; Device Name        ; 5M1270ZT144C5                                    ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Slow Model                                       ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------------+
+; Propagation Delay                                               ;
++------------------+------------------+--------+----+----+--------+
+; Input Port       ; Output Port      ; RR     ; RF ; FR ; FF     ;
++------------------+------------------+--------+----+----+--------+
+; input_vector[0]  ; output_vector[0] ; 18.061 ;    ;    ; 18.061 ;
+; input_vector[0]  ; output_vector[1] ; 17.426 ;    ;    ; 17.426 ;
+; input_vector[0]  ; output_vector[2] ; 17.938 ;    ;    ; 17.938 ;
+; input_vector[0]  ; output_vector[3] ; 15.857 ;    ;    ; 15.857 ;
+; input_vector[0]  ; output_vector[4] ; 18.021 ;    ;    ; 18.021 ;
+; input_vector[0]  ; output_vector[5] ; 20.316 ;    ;    ; 20.316 ;
+; input_vector[0]  ; output_vector[6] ; 19.436 ;    ;    ; 19.436 ;
+; input_vector[0]  ; output_vector[7] ; 17.585 ;    ;    ; 17.585 ;
+; input_vector[1]  ; output_vector[0] ; 15.347 ;    ;    ; 15.347 ;
+; input_vector[1]  ; output_vector[1] ; 18.528 ;    ;    ; 18.528 ;
+; input_vector[1]  ; output_vector[2] ; 18.688 ;    ;    ; 18.688 ;
+; input_vector[1]  ; output_vector[3] ; 16.607 ;    ;    ; 16.607 ;
+; input_vector[1]  ; output_vector[4] ; 18.771 ;    ;    ; 18.771 ;
+; input_vector[1]  ; output_vector[5] ; 21.066 ;    ;    ; 21.066 ;
+; input_vector[1]  ; output_vector[6] ; 20.186 ;    ;    ; 20.186 ;
+; input_vector[1]  ; output_vector[7] ; 18.335 ;    ;    ; 18.335 ;
+; input_vector[2]  ; output_vector[0] ; 13.701 ;    ;    ; 13.701 ;
+; input_vector[2]  ; output_vector[1] ; 16.044 ;    ;    ; 16.044 ;
+; input_vector[2]  ; output_vector[2] ; 16.786 ;    ;    ; 16.786 ;
+; input_vector[2]  ; output_vector[3] ; 15.461 ;    ;    ; 15.461 ;
+; input_vector[2]  ; output_vector[4] ; 17.625 ;    ;    ; 17.625 ;
+; input_vector[2]  ; output_vector[5] ; 19.920 ;    ;    ; 19.920 ;
+; input_vector[2]  ; output_vector[6] ; 19.040 ;    ;    ; 19.040 ;
+; input_vector[2]  ; output_vector[7] ; 17.189 ;    ;    ; 17.189 ;
+; input_vector[3]  ; output_vector[0] ; 17.049 ;    ;    ; 17.049 ;
+; input_vector[3]  ; output_vector[1] ; 16.623 ;    ;    ; 16.623 ;
+; input_vector[3]  ; output_vector[2] ; 17.600 ;    ;    ; 17.600 ;
+; input_vector[3]  ; output_vector[3] ; 15.415 ;    ;    ; 15.415 ;
+; input_vector[3]  ; output_vector[4] ; 17.850 ;    ;    ; 17.850 ;
+; input_vector[3]  ; output_vector[5] ; 20.145 ;    ;    ; 20.145 ;
+; input_vector[3]  ; output_vector[6] ; 19.265 ;    ;    ; 19.265 ;
+; input_vector[3]  ; output_vector[7] ; 17.414 ;    ;    ; 17.414 ;
+; input_vector[4]  ; output_vector[0] ; 14.868 ;    ;    ; 14.868 ;
+; input_vector[4]  ; output_vector[1] ; 15.622 ;    ;    ; 15.622 ;
+; input_vector[4]  ; output_vector[2] ; 17.152 ;    ;    ; 17.152 ;
+; input_vector[4]  ; output_vector[3] ; 17.751 ;    ;    ; 17.751 ;
+; input_vector[4]  ; output_vector[4] ; 19.513 ;    ;    ; 19.513 ;
+; input_vector[4]  ; output_vector[5] ; 20.899 ;    ;    ; 20.899 ;
+; input_vector[4]  ; output_vector[6] ; 17.947 ;    ;    ; 17.947 ;
+; input_vector[4]  ; output_vector[7] ; 18.203 ;    ;    ; 18.203 ;
+; input_vector[5]  ; output_vector[0] ; 13.806 ;    ;    ; 13.806 ;
+; input_vector[5]  ; output_vector[1] ; 15.135 ;    ;    ; 15.135 ;
+; input_vector[5]  ; output_vector[2] ; 15.905 ;    ;    ; 15.905 ;
+; input_vector[5]  ; output_vector[3] ; 11.565 ;    ;    ; 11.565 ;
+; input_vector[5]  ; output_vector[4] ; 19.149 ;    ;    ; 19.149 ;
+; input_vector[5]  ; output_vector[5] ; 18.184 ;    ;    ; 18.184 ;
+; input_vector[5]  ; output_vector[6] ; 19.564 ;    ;    ; 19.564 ;
+; input_vector[5]  ; output_vector[7] ; 16.618 ;    ;    ; 16.618 ;
+; input_vector[6]  ; output_vector[0] ; 13.750 ;    ;    ; 13.750 ;
+; input_vector[6]  ; output_vector[1] ; 16.459 ;    ;    ; 16.459 ;
+; input_vector[6]  ; output_vector[2] ; 17.205 ;    ;    ; 17.205 ;
+; input_vector[6]  ; output_vector[3] ; 16.424 ;    ;    ; 16.424 ;
+; input_vector[6]  ; output_vector[4] ; 17.465 ;    ;    ; 17.465 ;
+; input_vector[6]  ; output_vector[5] ; 13.775 ;    ;    ; 13.775 ;
+; input_vector[6]  ; output_vector[6] ; 16.364 ;    ;    ; 16.364 ;
+; input_vector[6]  ; output_vector[7] ; 16.131 ;    ;    ; 16.131 ;
+; input_vector[7]  ; output_vector[0] ; 15.001 ;    ;    ; 15.001 ;
+; input_vector[7]  ; output_vector[1] ; 15.572 ;    ;    ; 15.572 ;
+; input_vector[7]  ; output_vector[2] ; 18.392 ;    ;    ; 18.392 ;
+; input_vector[7]  ; output_vector[3] ; 18.819 ;    ;    ; 18.819 ;
+; input_vector[7]  ; output_vector[4] ; 19.028 ;    ;    ; 19.028 ;
+; input_vector[7]  ; output_vector[5] ; 13.664 ;    ;    ; 13.664 ;
+; input_vector[7]  ; output_vector[6] ; 14.907 ;    ;    ; 14.907 ;
+; input_vector[7]  ; output_vector[7] ; 17.153 ;    ;    ; 17.153 ;
+; input_vector[8]  ; output_vector[0] ; 19.674 ;    ;    ; 19.674 ;
+; input_vector[8]  ; output_vector[1] ; 20.968 ;    ;    ; 20.968 ;
+; input_vector[8]  ; output_vector[2] ; 21.731 ;    ;    ; 21.731 ;
+; input_vector[8]  ; output_vector[3] ; 19.222 ;    ;    ; 19.222 ;
+; input_vector[8]  ; output_vector[4] ; 21.386 ;    ;    ; 21.386 ;
+; input_vector[8]  ; output_vector[5] ; 23.681 ;    ;    ; 23.681 ;
+; input_vector[8]  ; output_vector[6] ; 22.801 ;    ;    ; 22.801 ;
+; input_vector[8]  ; output_vector[7] ; 21.270 ;    ;    ; 21.270 ;
+; input_vector[9]  ; output_vector[0] ; 20.947 ;    ;    ; 20.947 ;
+; input_vector[9]  ; output_vector[1] ; 22.283 ;    ;    ; 22.283 ;
+; input_vector[9]  ; output_vector[2] ; 23.046 ;    ;    ; 23.046 ;
+; input_vector[9]  ; output_vector[3] ; 20.279 ;    ;    ; 20.279 ;
+; input_vector[9]  ; output_vector[4] ; 22.466 ;    ;    ; 22.466 ;
+; input_vector[9]  ; output_vector[5] ; 23.657 ;    ;    ; 23.657 ;
+; input_vector[9]  ; output_vector[6] ; 22.545 ;    ;    ; 22.545 ;
+; input_vector[9]  ; output_vector[7] ; 22.585 ;    ;    ; 22.585 ;
+; input_vector[10] ; output_vector[0] ; 20.559 ;    ;    ; 20.559 ;
+; input_vector[10] ; output_vector[1] ; 21.895 ;    ;    ; 21.895 ;
+; input_vector[10] ; output_vector[2] ; 22.658 ;    ;    ; 22.658 ;
+; input_vector[10] ; output_vector[3] ; 19.883 ;    ;    ; 19.883 ;
+; input_vector[10] ; output_vector[4] ; 22.070 ;    ;    ; 22.070 ;
+; input_vector[10] ; output_vector[5] ; 23.269 ;    ;    ; 23.269 ;
+; input_vector[10] ; output_vector[6] ; 22.157 ;    ;    ; 22.157 ;
+; input_vector[10] ; output_vector[7] ; 22.189 ;    ;    ; 22.189 ;
+; input_vector[11] ; output_vector[0] ; 17.171 ;    ;    ; 17.171 ;
+; input_vector[11] ; output_vector[1] ; 18.344 ;    ;    ; 18.344 ;
+; input_vector[11] ; output_vector[2] ; 17.543 ;    ;    ; 17.543 ;
+; input_vector[11] ; output_vector[3] ; 17.064 ;    ;    ; 17.064 ;
+; input_vector[11] ; output_vector[4] ; 20.163 ;    ;    ; 20.163 ;
+; input_vector[11] ; output_vector[5] ; 21.614 ;    ;    ; 21.614 ;
+; input_vector[11] ; output_vector[6] ; 20.734 ;    ;    ; 20.734 ;
+; input_vector[11] ; output_vector[7] ; 19.180 ;    ;    ; 19.180 ;
+; input_vector[12] ; output_vector[0] ; 17.552 ;    ;    ; 17.552 ;
+; input_vector[12] ; output_vector[1] ; 18.725 ;    ;    ; 18.725 ;
+; input_vector[12] ; output_vector[2] ; 17.924 ;    ;    ; 17.924 ;
+; input_vector[12] ; output_vector[3] ; 17.445 ;    ;    ; 17.445 ;
+; input_vector[12] ; output_vector[4] ; 20.544 ;    ;    ; 20.544 ;
+; input_vector[12] ; output_vector[5] ; 21.149 ;    ;    ; 21.149 ;
+; input_vector[12] ; output_vector[6] ; 20.392 ;    ;    ; 20.392 ;
+; input_vector[12] ; output_vector[7] ; 19.561 ;    ;    ; 19.561 ;
+; input_vector[13] ; output_vector[0] ; 17.107 ;    ;    ; 17.107 ;
+; input_vector[13] ; output_vector[1] ; 18.280 ;    ;    ; 18.280 ;
+; input_vector[13] ; output_vector[2] ; 17.479 ;    ;    ; 17.479 ;
+; input_vector[13] ; output_vector[3] ; 17.000 ;    ;    ; 17.000 ;
+; input_vector[13] ; output_vector[4] ; 20.099 ;    ;    ; 20.099 ;
+; input_vector[13] ; output_vector[5] ; 20.184 ;    ;    ; 20.184 ;
+; input_vector[13] ; output_vector[6] ; 20.183 ;    ;    ; 20.183 ;
+; input_vector[13] ; output_vector[7] ; 19.116 ;    ;    ; 19.116 ;
+; input_vector[14] ; output_vector[0] ; 16.370 ;    ;    ; 16.370 ;
+; input_vector[14] ; output_vector[1] ; 17.543 ;    ;    ; 17.543 ;
+; input_vector[14] ; output_vector[2] ; 16.742 ;    ;    ; 16.742 ;
+; input_vector[14] ; output_vector[3] ; 16.263 ;    ;    ; 16.263 ;
+; input_vector[14] ; output_vector[4] ; 19.362 ;    ;    ; 19.362 ;
+; input_vector[14] ; output_vector[5] ; 15.322 ;    ;    ; 15.322 ;
+; input_vector[14] ; output_vector[6] ; 18.963 ;    ;    ; 18.963 ;
+; input_vector[14] ; output_vector[7] ; 18.379 ;    ;    ; 18.379 ;
+; input_vector[15] ; output_vector[0] ; 15.457 ;    ;    ; 15.457 ;
+; input_vector[15] ; output_vector[1] ; 16.629 ;    ;    ; 16.629 ;
+; input_vector[15] ; output_vector[2] ; 15.829 ;    ;    ; 15.829 ;
+; input_vector[15] ; output_vector[3] ; 15.349 ;    ;    ; 15.349 ;
+; input_vector[15] ; output_vector[4] ; 18.449 ;    ;    ; 18.449 ;
+; input_vector[15] ; output_vector[5] ; 14.408 ;    ;    ; 14.408 ;
+; input_vector[15] ; output_vector[6] ; 17.865 ;    ;    ; 17.865 ;
+; input_vector[15] ; output_vector[7] ; 17.465 ;    ;    ; 17.465 ;
+; input_vector[16] ; output_vector[0] ; 18.452 ;    ;    ; 18.452 ;
+; input_vector[16] ; output_vector[1] ; 20.102 ;    ;    ; 20.102 ;
+; input_vector[16] ; output_vector[2] ; 20.614 ;    ;    ; 20.614 ;
+; input_vector[16] ; output_vector[3] ; 18.533 ;    ;    ; 18.533 ;
+; input_vector[16] ; output_vector[4] ; 20.697 ;    ;    ; 20.697 ;
+; input_vector[16] ; output_vector[5] ; 22.992 ;    ;    ; 22.992 ;
+; input_vector[16] ; output_vector[6] ; 22.112 ;    ;    ; 22.112 ;
+; input_vector[16] ; output_vector[7] ; 20.261 ;    ;    ; 20.261 ;
+; input_vector[17] ; output_vector[0] ; 18.448 ;    ;    ; 18.448 ;
+; input_vector[17] ; output_vector[1] ; 20.098 ;    ;    ; 20.098 ;
+; input_vector[17] ; output_vector[2] ; 20.610 ;    ;    ; 20.610 ;
+; input_vector[17] ; output_vector[3] ; 18.529 ;    ;    ; 18.529 ;
+; input_vector[17] ; output_vector[4] ; 20.862 ;    ;    ; 20.862 ;
+; input_vector[17] ; output_vector[5] ; 23.157 ;    ;    ; 23.157 ;
+; input_vector[17] ; output_vector[6] ; 22.293 ;    ;    ; 22.293 ;
+; input_vector[17] ; output_vector[7] ; 20.565 ;    ;    ; 20.565 ;
++------------------+------------------+--------+----+----+--------+
+
+
++-----------------------------------------------------------------+
+; Minimum Propagation Delay                                       ;
++------------------+------------------+--------+----+----+--------+
+; Input Port       ; Output Port      ; RR     ; RF ; FR ; FF     ;
++------------------+------------------+--------+----+----+--------+
+; input_vector[0]  ; output_vector[0] ; 13.362 ;    ;    ; 13.362 ;
+; input_vector[0]  ; output_vector[1] ; 14.860 ;    ;    ; 14.860 ;
+; input_vector[0]  ; output_vector[2] ; 13.435 ;    ;    ; 13.435 ;
+; input_vector[0]  ; output_vector[3] ; 14.880 ;    ;    ; 14.880 ;
+; input_vector[0]  ; output_vector[4] ; 15.524 ;    ;    ; 15.524 ;
+; input_vector[0]  ; output_vector[5] ; 20.118 ;    ;    ; 20.118 ;
+; input_vector[0]  ; output_vector[6] ; 17.424 ;    ;    ; 17.424 ;
+; input_vector[0]  ; output_vector[7] ; 16.273 ;    ;    ; 16.273 ;
+; input_vector[1]  ; output_vector[0] ; 15.347 ;    ;    ; 15.347 ;
+; input_vector[1]  ; output_vector[1] ; 17.437 ;    ;    ; 17.437 ;
+; input_vector[1]  ; output_vector[2] ; 12.654 ;    ;    ; 12.654 ;
+; input_vector[1]  ; output_vector[3] ; 13.195 ;    ;    ; 13.195 ;
+; input_vector[1]  ; output_vector[4] ; 14.860 ;    ;    ; 14.860 ;
+; input_vector[1]  ; output_vector[5] ; 20.073 ;    ;    ; 20.073 ;
+; input_vector[1]  ; output_vector[6] ; 15.932 ;    ;    ; 15.932 ;
+; input_vector[1]  ; output_vector[7] ; 15.663 ;    ;    ; 15.663 ;
+; input_vector[2]  ; output_vector[0] ; 13.701 ;    ;    ; 13.701 ;
+; input_vector[2]  ; output_vector[1] ; 16.044 ;    ;    ; 16.044 ;
+; input_vector[2]  ; output_vector[2] ; 12.484 ;    ;    ; 12.484 ;
+; input_vector[2]  ; output_vector[3] ; 14.957 ;    ;    ; 14.957 ;
+; input_vector[2]  ; output_vector[4] ; 15.088 ;    ;    ; 15.088 ;
+; input_vector[2]  ; output_vector[5] ; 18.944 ;    ;    ; 18.944 ;
+; input_vector[2]  ; output_vector[6] ; 16.424 ;    ;    ; 16.424 ;
+; input_vector[2]  ; output_vector[7] ; 14.912 ;    ;    ; 14.912 ;
+; input_vector[3]  ; output_vector[0] ; 17.049 ;    ;    ; 17.049 ;
+; input_vector[3]  ; output_vector[1] ; 16.623 ;    ;    ; 16.623 ;
+; input_vector[3]  ; output_vector[2] ; 17.600 ;    ;    ; 17.600 ;
+; input_vector[3]  ; output_vector[3] ; 14.969 ;    ;    ; 14.969 ;
+; input_vector[3]  ; output_vector[4] ; 17.792 ;    ;    ; 17.792 ;
+; input_vector[3]  ; output_vector[5] ; 19.508 ;    ;    ; 19.508 ;
+; input_vector[3]  ; output_vector[6] ; 17.709 ;    ;    ; 17.709 ;
+; input_vector[3]  ; output_vector[7] ; 15.444 ;    ;    ; 15.444 ;
+; input_vector[4]  ; output_vector[0] ; 14.868 ;    ;    ; 14.868 ;
+; input_vector[4]  ; output_vector[1] ; 15.622 ;    ;    ; 15.622 ;
+; input_vector[4]  ; output_vector[2] ; 17.152 ;    ;    ; 17.152 ;
+; input_vector[4]  ; output_vector[3] ; 17.751 ;    ;    ; 17.751 ;
+; input_vector[4]  ; output_vector[4] ; 14.249 ;    ;    ; 14.249 ;
+; input_vector[4]  ; output_vector[5] ; 18.689 ;    ;    ; 18.689 ;
+; input_vector[4]  ; output_vector[6] ; 16.826 ;    ;    ; 16.826 ;
+; input_vector[4]  ; output_vector[7] ; 16.180 ;    ;    ; 16.180 ;
+; input_vector[5]  ; output_vector[0] ; 13.806 ;    ;    ; 13.806 ;
+; input_vector[5]  ; output_vector[1] ; 15.135 ;    ;    ; 15.135 ;
+; input_vector[5]  ; output_vector[2] ; 15.905 ;    ;    ; 15.905 ;
+; input_vector[5]  ; output_vector[3] ; 11.565 ;    ;    ; 11.565 ;
+; input_vector[5]  ; output_vector[4] ; 19.149 ;    ;    ; 19.149 ;
+; input_vector[5]  ; output_vector[5] ; 12.007 ;    ;    ; 12.007 ;
+; input_vector[5]  ; output_vector[6] ; 17.953 ;    ;    ; 17.953 ;
+; input_vector[5]  ; output_vector[7] ; 16.213 ;    ;    ; 16.213 ;
+; input_vector[6]  ; output_vector[0] ; 13.750 ;    ;    ; 13.750 ;
+; input_vector[6]  ; output_vector[1] ; 16.459 ;    ;    ; 16.459 ;
+; input_vector[6]  ; output_vector[2] ; 17.205 ;    ;    ; 17.205 ;
+; input_vector[6]  ; output_vector[3] ; 16.424 ;    ;    ; 16.424 ;
+; input_vector[6]  ; output_vector[4] ; 17.465 ;    ;    ; 17.465 ;
+; input_vector[6]  ; output_vector[5] ; 13.775 ;    ;    ; 13.775 ;
+; input_vector[6]  ; output_vector[6] ; 14.035 ;    ;    ; 14.035 ;
+; input_vector[6]  ; output_vector[7] ; 15.320 ;    ;    ; 15.320 ;
+; input_vector[7]  ; output_vector[0] ; 15.001 ;    ;    ; 15.001 ;
+; input_vector[7]  ; output_vector[1] ; 15.572 ;    ;    ; 15.572 ;
+; input_vector[7]  ; output_vector[2] ; 18.392 ;    ;    ; 18.392 ;
+; input_vector[7]  ; output_vector[3] ; 18.819 ;    ;    ; 18.819 ;
+; input_vector[7]  ; output_vector[4] ; 19.028 ;    ;    ; 19.028 ;
+; input_vector[7]  ; output_vector[5] ; 13.664 ;    ;    ; 13.664 ;
+; input_vector[7]  ; output_vector[6] ; 14.907 ;    ;    ; 14.907 ;
+; input_vector[7]  ; output_vector[7] ; 14.518 ;    ;    ; 14.518 ;
+; input_vector[8]  ; output_vector[0] ; 14.263 ;    ;    ; 14.263 ;
+; input_vector[8]  ; output_vector[1] ; 15.890 ;    ;    ; 15.890 ;
+; input_vector[8]  ; output_vector[2] ; 12.496 ;    ;    ; 12.496 ;
+; input_vector[8]  ; output_vector[3] ; 14.803 ;    ;    ; 14.803 ;
+; input_vector[8]  ; output_vector[4] ; 13.512 ;    ;    ; 13.512 ;
+; input_vector[8]  ; output_vector[5] ; 13.619 ;    ;    ; 13.619 ;
+; input_vector[8]  ; output_vector[6] ; 16.589 ;    ;    ; 16.589 ;
+; input_vector[8]  ; output_vector[7] ; 15.497 ;    ;    ; 15.497 ;
+; input_vector[9]  ; output_vector[0] ; 16.616 ;    ;    ; 16.616 ;
+; input_vector[9]  ; output_vector[1] ; 15.733 ;    ;    ; 15.733 ;
+; input_vector[9]  ; output_vector[2] ; 13.923 ;    ;    ; 13.923 ;
+; input_vector[9]  ; output_vector[3] ; 14.471 ;    ;    ; 14.471 ;
+; input_vector[9]  ; output_vector[4] ; 14.197 ;    ;    ; 14.197 ;
+; input_vector[9]  ; output_vector[5] ; 14.261 ;    ;    ; 14.261 ;
+; input_vector[9]  ; output_vector[6] ; 17.531 ;    ;    ; 17.531 ;
+; input_vector[9]  ; output_vector[7] ; 17.666 ;    ;    ; 17.666 ;
+; input_vector[10] ; output_vector[0] ; 15.681 ;    ;    ; 15.681 ;
+; input_vector[10] ; output_vector[1] ; 16.824 ;    ;    ; 16.824 ;
+; input_vector[10] ; output_vector[2] ; 12.988 ;    ;    ; 12.988 ;
+; input_vector[10] ; output_vector[3] ; 15.671 ;    ;    ; 15.671 ;
+; input_vector[10] ; output_vector[4] ; 14.097 ;    ;    ; 14.097 ;
+; input_vector[10] ; output_vector[5] ; 14.095 ;    ;    ; 14.095 ;
+; input_vector[10] ; output_vector[6] ; 17.448 ;    ;    ; 17.448 ;
+; input_vector[10] ; output_vector[7] ; 17.557 ;    ;    ; 17.557 ;
+; input_vector[11] ; output_vector[0] ; 16.780 ;    ;    ; 16.780 ;
+; input_vector[11] ; output_vector[1] ; 17.201 ;    ;    ; 17.201 ;
+; input_vector[11] ; output_vector[2] ; 15.381 ;    ;    ; 15.381 ;
+; input_vector[11] ; output_vector[3] ; 16.387 ;    ;    ; 16.387 ;
+; input_vector[11] ; output_vector[4] ; 17.293 ;    ;    ; 17.293 ;
+; input_vector[11] ; output_vector[5] ; 15.892 ;    ;    ; 15.892 ;
+; input_vector[11] ; output_vector[6] ; 16.677 ;    ;    ; 16.677 ;
+; input_vector[11] ; output_vector[7] ; 17.553 ;    ;    ; 17.553 ;
+; input_vector[12] ; output_vector[0] ; 17.161 ;    ;    ; 17.161 ;
+; input_vector[12] ; output_vector[1] ; 17.582 ;    ;    ; 17.582 ;
+; input_vector[12] ; output_vector[2] ; 15.762 ;    ;    ; 15.762 ;
+; input_vector[12] ; output_vector[3] ; 16.909 ;    ;    ; 16.909 ;
+; input_vector[12] ; output_vector[4] ; 17.674 ;    ;    ; 17.674 ;
+; input_vector[12] ; output_vector[5] ; 16.273 ;    ;    ; 16.273 ;
+; input_vector[12] ; output_vector[6] ; 17.058 ;    ;    ; 17.058 ;
+; input_vector[12] ; output_vector[7] ; 17.934 ;    ;    ; 17.934 ;
+; input_vector[13] ; output_vector[0] ; 16.716 ;    ;    ; 16.716 ;
+; input_vector[13] ; output_vector[1] ; 17.137 ;    ;    ; 17.137 ;
+; input_vector[13] ; output_vector[2] ; 15.317 ;    ;    ; 15.317 ;
+; input_vector[13] ; output_vector[3] ; 16.464 ;    ;    ; 16.464 ;
+; input_vector[13] ; output_vector[4] ; 17.229 ;    ;    ; 17.229 ;
+; input_vector[13] ; output_vector[5] ; 15.828 ;    ;    ; 15.828 ;
+; input_vector[13] ; output_vector[6] ; 16.613 ;    ;    ; 16.613 ;
+; input_vector[13] ; output_vector[7] ; 17.489 ;    ;    ; 17.489 ;
+; input_vector[14] ; output_vector[0] ; 15.979 ;    ;    ; 15.979 ;
+; input_vector[14] ; output_vector[1] ; 16.400 ;    ;    ; 16.400 ;
+; input_vector[14] ; output_vector[2] ; 14.580 ;    ;    ; 14.580 ;
+; input_vector[14] ; output_vector[3] ; 15.727 ;    ;    ; 15.727 ;
+; input_vector[14] ; output_vector[4] ; 16.492 ;    ;    ; 16.492 ;
+; input_vector[14] ; output_vector[5] ; 15.091 ;    ;    ; 15.091 ;
+; input_vector[14] ; output_vector[6] ; 15.876 ;    ;    ; 15.876 ;
+; input_vector[14] ; output_vector[7] ; 16.752 ;    ;    ; 16.752 ;
+; input_vector[15] ; output_vector[0] ; 15.065 ;    ;    ; 15.065 ;
+; input_vector[15] ; output_vector[1] ; 15.487 ;    ;    ; 15.487 ;
+; input_vector[15] ; output_vector[2] ; 13.666 ;    ;    ; 13.666 ;
+; input_vector[15] ; output_vector[3] ; 14.814 ;    ;    ; 14.814 ;
+; input_vector[15] ; output_vector[4] ; 15.578 ;    ;    ; 15.578 ;
+; input_vector[15] ; output_vector[5] ; 14.178 ;    ;    ; 14.178 ;
+; input_vector[15] ; output_vector[6] ; 14.963 ;    ;    ; 14.963 ;
+; input_vector[15] ; output_vector[7] ; 15.839 ;    ;    ; 15.839 ;
+; input_vector[16] ; output_vector[0] ; 14.718 ;    ;    ; 14.718 ;
+; input_vector[16] ; output_vector[1] ; 15.140 ;    ;    ; 15.140 ;
+; input_vector[16] ; output_vector[2] ; 13.319 ;    ;    ; 13.319 ;
+; input_vector[16] ; output_vector[3] ; 14.467 ;    ;    ; 14.467 ;
+; input_vector[16] ; output_vector[4] ; 15.231 ;    ;    ; 15.231 ;
+; input_vector[16] ; output_vector[5] ; 13.831 ;    ;    ; 13.831 ;
+; input_vector[16] ; output_vector[6] ; 14.616 ;    ;    ; 14.616 ;
+; input_vector[16] ; output_vector[7] ; 15.492 ;    ;    ; 15.492 ;
+; input_vector[17] ; output_vector[0] ; 11.391 ;    ;    ; 11.391 ;
+; input_vector[17] ; output_vector[1] ; 12.098 ;    ;    ; 12.098 ;
+; input_vector[17] ; output_vector[2] ; 13.589 ;    ;    ; 13.589 ;
+; input_vector[17] ; output_vector[3] ; 11.348 ;    ;    ; 11.348 ;
+; input_vector[17] ; output_vector[4] ; 13.120 ;    ;    ; 13.120 ;
+; input_vector[17] ; output_vector[5] ; 15.674 ;    ;    ; 15.674 ;
+; input_vector[17] ; output_vector[6] ; 13.814 ;    ;    ; 13.814 ;
+; input_vector[17] ; output_vector[7] ; 11.603 ;    ;    ; 11.603 ;
++------------------+------------------+--------+----+----+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 18    ; 18   ;
+; Unconstrained Input Port Paths  ; 144   ; 144  ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 144   ; 144  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
+    Info: Version 12.0 Build 178 05/31/2012 SJ Web Edition
+    Info: Processing started: Wed Feb  1 12:34:51 2017
+Info: Command: quartus_sta DUT -c DUT
+Info: qsta_default_script.tcl version: #4
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (306004): Started post-fitting delay annotation
+Info (306005): Delay annotation completed successfully
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'DUT.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 290 megabytes
+    Info: Processing ended: Wed Feb  1 12:34:52 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

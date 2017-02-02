@@ -1,0 +1,662 @@
+|DUT
+input_vector[0] => ALU8bit:add_instance.x0
+input_vector[1] => ALU8bit:add_instance.x1
+input_vector[2] => ALU8bit:add_instance.x2
+input_vector[3] => ALU8bit:add_instance.x3
+input_vector[4] => ALU8bit:add_instance.x4
+input_vector[5] => ALU8bit:add_instance.x5
+input_vector[6] => ALU8bit:add_instance.x6
+input_vector[7] => ALU8bit:add_instance.x7
+input_vector[8] => ALU8bit:add_instance.y0
+input_vector[9] => ALU8bit:add_instance.y1
+input_vector[10] => ALU8bit:add_instance.y2
+input_vector[11] => ALU8bit:add_instance.y3
+input_vector[12] => ALU8bit:add_instance.y4
+input_vector[13] => ALU8bit:add_instance.y5
+input_vector[14] => ALU8bit:add_instance.y6
+input_vector[15] => ALU8bit:add_instance.y7
+input_vector[16] => ALU8bit:add_instance.s0
+input_vector[17] => ALU8bit:add_instance.s1
+output_vector[0] <= ALU8bit:add_instance.z0
+output_vector[1] <= ALU8bit:add_instance.z1
+output_vector[2] <= ALU8bit:add_instance.z2
+output_vector[3] <= ALU8bit:add_instance.z3
+output_vector[4] <= ALU8bit:add_instance.z4
+output_vector[5] <= ALU8bit:add_instance.z5
+output_vector[6] <= ALU8bit:add_instance.z6
+output_vector[7] <= ALU8bit:add_instance.z7
+
+
+|DUT|ALU8bit:add_instance
+x7 => Adder8bit:XI2.x7
+x7 => LogRightShift8bit:XI3.x7
+x7 => LogLeftShift8bit:XI4.x7
+x6 => Adder8bit:XI2.x6
+x6 => LogRightShift8bit:XI3.x6
+x6 => LogLeftShift8bit:XI4.x6
+x5 => Adder8bit:XI2.x5
+x5 => LogRightShift8bit:XI3.x5
+x5 => LogLeftShift8bit:XI4.x5
+x4 => Adder8bit:XI2.x4
+x4 => LogRightShift8bit:XI3.x4
+x4 => LogLeftShift8bit:XI4.x4
+x3 => Adder8bit:XI2.x3
+x3 => LogRightShift8bit:XI3.x3
+x3 => LogLeftShift8bit:XI4.x3
+x2 => Adder8bit:XI2.x2
+x2 => LogRightShift8bit:XI3.x2
+x2 => LogLeftShift8bit:XI4.x2
+x1 => Adder8bit:XI2.x1
+x1 => LogRightShift8bit:XI3.x1
+x1 => LogLeftShift8bit:XI4.x1
+x0 => Adder8bit:XI2.x0
+x0 => LogRightShift8bit:XI3.x0
+x0 => LogLeftShift8bit:XI4.x0
+y7 => y_a7.IN1
+y7 => OneComp8bit:XI1.y7
+y7 => LogRightShift8bit:XI3.y7
+y7 => LogLeftShift8bit:XI4.y7
+y6 => y_a6.IN1
+y6 => OneComp8bit:XI1.y6
+y6 => LogRightShift8bit:XI3.y6
+y6 => LogLeftShift8bit:XI4.y6
+y5 => y_a5.IN1
+y5 => OneComp8bit:XI1.y5
+y5 => LogRightShift8bit:XI3.y5
+y5 => LogLeftShift8bit:XI4.y5
+y4 => y_a4.IN1
+y4 => OneComp8bit:XI1.y4
+y4 => LogRightShift8bit:XI3.y4
+y4 => LogLeftShift8bit:XI4.y4
+y3 => y_a3.IN1
+y3 => OneComp8bit:XI1.y3
+y3 => LogRightShift8bit:XI3.y3
+y3 => LogLeftShift8bit:XI4.y3
+y2 => y_a2.IN1
+y2 => OneComp8bit:XI1.y2
+y2 => LogRightShift8bit:XI3.y2
+y2 => LogLeftShift8bit:XI4.y2
+y1 => y_a1.IN1
+y1 => OneComp8bit:XI1.y1
+y1 => LogRightShift8bit:XI3.y1
+y1 => LogLeftShift8bit:XI4.y1
+y0 => y_a0.IN1
+y0 => OneComp8bit:XI1.y0
+y0 => LogRightShift8bit:XI3.y0
+y0 => LogLeftShift8bit:XI4.y0
+z7 <= z7.DB_MAX_OUTPUT_PORT_TYPE
+z6 <= z6.DB_MAX_OUTPUT_PORT_TYPE
+z5 <= z5.DB_MAX_OUTPUT_PORT_TYPE
+z4 <= z4.DB_MAX_OUTPUT_PORT_TYPE
+z3 <= z3.DB_MAX_OUTPUT_PORT_TYPE
+z2 <= z2.DB_MAX_OUTPUT_PORT_TYPE
+z1 <= z1.DB_MAX_OUTPUT_PORT_TYPE
+z0 <= z0.DB_MAX_OUTPUT_PORT_TYPE
+s1 => Decoder4bit:XI0.s1
+s0 => Decoder4bit:XI0.s0
+s0 => Adder8bit:XI2.c_in0
+
+
+|DUT|ALU8bit:add_instance|Decoder4bit:XI0
+s1 => y2.IN0
+s1 => y3.IN0
+s1 => y1.IN0
+s1 => y0.IN0
+s0 => y1.IN1
+s0 => y3.IN1
+s0 => y2.IN1
+s0 => y0.IN1
+y3 <= y3.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= y2.DB_MAX_OUTPUT_PORT_TYPE
+y1 <= y1.DB_MAX_OUTPUT_PORT_TYPE
+y0 <= y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|OneComp8bit:XI1
+y7 => z7.DATAIN
+y6 => z6.DATAIN
+y5 => z5.DATAIN
+y4 => z4.DATAIN
+y3 => z3.DATAIN
+y2 => z2.DATAIN
+y1 => z1.DATAIN
+y0 => z0.DATAIN
+z7 <= y7.DB_MAX_OUTPUT_PORT_TYPE
+z6 <= y6.DB_MAX_OUTPUT_PORT_TYPE
+z5 <= y5.DB_MAX_OUTPUT_PORT_TYPE
+z4 <= y4.DB_MAX_OUTPUT_PORT_TYPE
+z3 <= y3.DB_MAX_OUTPUT_PORT_TYPE
+z2 <= y2.DB_MAX_OUTPUT_PORT_TYPE
+z1 <= y1.DB_MAX_OUTPUT_PORT_TYPE
+z0 <= y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2
+x7 => FullAdder:XI7.a0
+x6 => FullAdder:XI6.a0
+x5 => FullAdder:XI5.a0
+x4 => FullAdder:XI4.a0
+x3 => FullAdder:XI3.a0
+x2 => FullAdder:XI2.a0
+x1 => FullAdder:XI1.a0
+x0 => FullAdder:XI0.a0
+y7 => FullAdder:XI7.a1
+y6 => FullAdder:XI6.a1
+y5 => FullAdder:XI5.a1
+y4 => FullAdder:XI4.a1
+y3 => FullAdder:XI3.a1
+y2 => FullAdder:XI2.a1
+y1 => FullAdder:XI1.a1
+y0 => FullAdder:XI0.a1
+z7 <= FullAdder:XI7.s
+z6 <= FullAdder:XI6.s
+z5 <= FullAdder:XI5.s
+z4 <= FullAdder:XI4.s
+z3 <= FullAdder:XI3.s
+z2 <= FullAdder:XI2.s
+z1 <= FullAdder:XI1.s
+z0 <= FullAdder:XI0.s
+c_in0 => FullAdder:XI0.c_in
+c_out7 <= FullAdder:XI7.c_out
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI0
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI0|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI0|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI0|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI0|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI1
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI1|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI1|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI1|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI1|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI2
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI2|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI2|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI2|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI2|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI3
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI3|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI3|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI3|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI3|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI4
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI4|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI4|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI4|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI4|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI5
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI5|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI5|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI5|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI5|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI6
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI6|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI6|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI6|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI6|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI7
+c_in => HalfAdder:X1.a1
+a1 => HalfAdder:X0.a1
+a0 => HalfAdder:X0.a0
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= HalfAdder:X1.s
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI7|HalfAdder:X0
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI7|HalfAdder:X0|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI7|HalfAdder:X1
+a1 => c.IN0
+a1 => XORGATE:X0.a1
+a0 => c.IN1
+a0 => XORGATE:X0.a0
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+s <= XORGATE:X0.y
+
+
+|DUT|ALU8bit:add_instance|Adder8bit:XI2|FullAdder:XI7|HalfAdder:X1|XORGATE:X0
+a1 => y.IN0
+a1 => y.IN0
+a0 => y.IN1
+a0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|LogRightShift8bit:XI3
+x7 => z0.IN1
+x7 => z1.IN1
+x7 => z2.IN1
+x7 => z3.IN1
+x7 => z4.IN1
+x7 => z5.IN1
+x7 => z6.IN1
+x7 => z7.IN1
+x6 => z0.IN1
+x6 => z1.IN1
+x6 => z2.IN1
+x6 => z3.IN1
+x6 => z4.IN1
+x6 => z5.IN1
+x6 => z6.IN1
+x5 => z0.IN1
+x5 => z1.IN1
+x5 => z2.IN1
+x5 => z3.IN1
+x5 => z4.IN1
+x5 => z5.IN1
+x4 => z0.IN1
+x4 => z1.IN1
+x4 => z2.IN1
+x4 => z3.IN1
+x4 => z4.IN1
+x3 => z0.IN1
+x3 => z1.IN1
+x3 => z2.IN1
+x3 => z3.IN1
+x2 => z0.IN1
+x2 => z1.IN1
+x2 => z2.IN1
+x1 => z0.IN1
+x1 => z1.IN1
+x0 => z0.IN1
+y7 => s8.IN0
+y6 => s8.IN1
+y5 => s8.IN1
+y4 => s8.IN1
+y3 => s8.IN1
+y2 => Decoder8bit:XI0.s2
+y1 => Decoder8bit:XI0.s1
+y0 => Decoder8bit:XI0.s0
+z7 <= z7.DB_MAX_OUTPUT_PORT_TYPE
+z6 <= z6.DB_MAX_OUTPUT_PORT_TYPE
+z5 <= z5.DB_MAX_OUTPUT_PORT_TYPE
+z4 <= z4.DB_MAX_OUTPUT_PORT_TYPE
+z3 <= z3.DB_MAX_OUTPUT_PORT_TYPE
+z2 <= z2.DB_MAX_OUTPUT_PORT_TYPE
+z1 <= z1.DB_MAX_OUTPUT_PORT_TYPE
+z0 <= z0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|LogRightShift8bit:XI3|Decoder8bit:XI0
+s2 => y5.IN0
+s2 => y7.IN0
+s2 => y3.IN0
+s2 => y1.IN0
+s1 => y3.IN1
+s1 => y7.IN1
+s1 => y5.IN1
+s1 => y1.IN1
+s0 => y1.IN1
+s0 => y3.IN1
+s0 => y5.IN1
+s0 => y7.IN1
+s0 => y6.IN1
+s0 => y4.IN1
+s0 => y2.IN1
+s0 => y0.IN1
+y7 <= y7.DB_MAX_OUTPUT_PORT_TYPE
+y6 <= y6.DB_MAX_OUTPUT_PORT_TYPE
+y5 <= y5.DB_MAX_OUTPUT_PORT_TYPE
+y4 <= y4.DB_MAX_OUTPUT_PORT_TYPE
+y3 <= y3.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= y2.DB_MAX_OUTPUT_PORT_TYPE
+y1 <= y1.DB_MAX_OUTPUT_PORT_TYPE
+y0 <= y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|LogLeftShift8bit:XI4
+x7 => z7.IN1
+x6 => z6.IN1
+x6 => z7.IN1
+x5 => z5.IN1
+x5 => z6.IN1
+x5 => z7.IN1
+x4 => z4.IN1
+x4 => z5.IN1
+x4 => z6.IN1
+x4 => z7.IN1
+x3 => z3.IN1
+x3 => z4.IN1
+x3 => z5.IN1
+x3 => z6.IN1
+x3 => z7.IN1
+x2 => z2.IN1
+x2 => z3.IN1
+x2 => z4.IN1
+x2 => z5.IN1
+x2 => z6.IN1
+x2 => z7.IN1
+x1 => z1.IN1
+x1 => z2.IN1
+x1 => z3.IN1
+x1 => z4.IN1
+x1 => z5.IN1
+x1 => z6.IN1
+x1 => z7.IN1
+x0 => z0.IN1
+x0 => z1.IN1
+x0 => z2.IN1
+x0 => z3.IN1
+x0 => z4.IN1
+x0 => z5.IN1
+x0 => z6.IN1
+x0 => z7.IN1
+y7 => s8.IN0
+y6 => s8.IN1
+y5 => s8.IN1
+y4 => s8.IN1
+y3 => s8.IN1
+y2 => Decoder8bit:XI0.s2
+y1 => Decoder8bit:XI0.s1
+y0 => Decoder8bit:XI0.s0
+z7 <= z7.DB_MAX_OUTPUT_PORT_TYPE
+z6 <= z6.DB_MAX_OUTPUT_PORT_TYPE
+z5 <= z5.DB_MAX_OUTPUT_PORT_TYPE
+z4 <= z4.DB_MAX_OUTPUT_PORT_TYPE
+z3 <= z3.DB_MAX_OUTPUT_PORT_TYPE
+z2 <= z2.DB_MAX_OUTPUT_PORT_TYPE
+z1 <= z1.DB_MAX_OUTPUT_PORT_TYPE
+z0 <= z0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|ALU8bit:add_instance|LogLeftShift8bit:XI4|Decoder8bit:XI0
+s2 => y5.IN0
+s2 => y7.IN0
+s2 => y3.IN0
+s2 => y1.IN0
+s1 => y3.IN1
+s1 => y7.IN1
+s1 => y5.IN1
+s1 => y1.IN1
+s0 => y1.IN1
+s0 => y3.IN1
+s0 => y5.IN1
+s0 => y7.IN1
+s0 => y6.IN1
+s0 => y4.IN1
+s0 => y2.IN1
+s0 => y0.IN1
+y7 <= y7.DB_MAX_OUTPUT_PORT_TYPE
+y6 <= y6.DB_MAX_OUTPUT_PORT_TYPE
+y5 <= y5.DB_MAX_OUTPUT_PORT_TYPE
+y4 <= y4.DB_MAX_OUTPUT_PORT_TYPE
+y3 <= y3.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= y2.DB_MAX_OUTPUT_PORT_TYPE
+y1 <= y1.DB_MAX_OUTPUT_PORT_TYPE
+y0 <= y0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/student/Desktop/tests/GenericTb/example_1/TwoBitAdder.vhd
+source_file = 1, /home/student/Desktop/tests/GenericTb/example_1/DUT.vhd
+source_file = 1, /home/student/Desktop/tests/Quartus_work/FullAdder_DUT/db/DUT.cbx.xml
+source_file = 1, /opt/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /opt/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /opt/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /opt/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = DUT
+instance = comp, \input_vector[2]~I\, input_vector[2], DUT, 1
+instance = comp, \input_vector[0]~I\, input_vector[0], DUT, 1
+instance = comp, \add_instance|s0~0\, add_instance|s0~0, DUT, 1
+instance = comp, \input_vector[3]~I\, input_vector[3], DUT, 1
+instance = comp, \input_vector[1]~I\, input_vector[1], DUT, 1
+instance = comp, \add_instance|s1~0\, add_instance|s1~0, DUT, 1
+instance = comp, \output_vector[0]~I\, output_vector[0], DUT, 1
+instance = comp, \output_vector[1]~I\, output_vector[1], DUT, 1

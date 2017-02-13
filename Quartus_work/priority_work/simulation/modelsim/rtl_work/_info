@@ -1,0 +1,104 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student/Desktop/Quartus/Quartus_work/priority_work/simulation/modelsim
+Edut
+Z1 w1485693209
+Z2 d/home/student/Desktop/Quartus/Quartus_work/priority_work/simulation/modelsim
+Z3 8/home/student/Desktop/Quartus/Quartus_work/priority_work/DUT.vhd
+Z4 F/home/student/Desktop/Quartus/Quartus_work/priority_work/DUT.vhd
+l0
+L4
+V?@09K5XJnTRneSnK8D8iU3
+Z5 OV;C;10.1d;51
+31
+Z6 !s108 1486553099.740015
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/Quartus/Quartus_work/priority_work/DUT.vhd|
+Z8 !s107 /home/student/Desktop/Quartus/Quartus_work/priority_work/DUT.vhd|
+Z9 o-93 -work work -O0
+Z10 tExplicit 1
+!s100 ZNjUQCm34G1lg[d:jUUCe3
+!i10b 1
+Adutwrap
+DEx4 work 3 dut 0 22 ?@09K5XJnTRneSnK8D8iU3
+l14
+L9
+Vo5O6=O[E[eFaDDR:N^nVc3
+R5
+31
+R6
+R7
+R8
+R9
+R10
+!s100 o@c:nIoLQGIkSH@69:37[1
+!i10b 1
+Epriorityencoder
+Z11 w1485693270
+Z12 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z13 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R2
+Z14 8/home/student/Desktop/Quartus/Quartus_work/priority_work/PriorityEncoder.vhd
+Z15 F/home/student/Desktop/Quartus/Quartus_work/priority_work/PriorityEncoder.vhd
+l0
+L3
+VIaKMIWdFD1l>56LdO^]R52
+R5
+31
+Z16 !s108 1486553099.764513
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/Quartus/Quartus_work/priority_work/PriorityEncoder.vhd|
+Z18 !s107 /home/student/Desktop/Quartus/Quartus_work/priority_work/PriorityEncoder.vhd|
+R9
+R10
+!s100 E_glI8IO9`=A72lA;S3nU1
+!i10b 1
+Aformulas
+R12
+R13
+DEx4 work 15 priorityencoder 0 22 IaKMIWdFD1l>56LdO^]R52
+l8
+L7
+VEcWJMMTgZnFi>nle>RloF2
+R5
+31
+R16
+R17
+R18
+R9
+R10
+!s100 AD24A47@CdOI0k1zNe`<U3
+!i10b 1
+Etestbench
+Z19 w1485692011
+R12
+R2
+Z20 8/home/student/Desktop/Quartus/Quartus_work/priority_work/Testbench.vhd
+Z21 F/home/student/Desktop/Quartus/Quartus_work/priority_work/Testbench.vhd
+l0
+L4
+VD@_k1JLbN1VJQedB@EgDQ3
+!s100 DfjSATjVk5;;1INQZ6cJU1
+R5
+31
+!i10b 1
+Z22 !s108 1486553099.792506
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/student/Desktop/Quartus/Quartus_work/priority_work/Testbench.vhd|
+Z24 !s107 /home/student/Desktop/Quartus/Quartus_work/priority_work/Testbench.vhd|
+R9
+R10
+Abehave
+R12
+DEx4 work 9 testbench 0 22 D@_k1JLbN1VJQedB@EgDQ3
+l37
+L6
+V@`0;WUhNRC<;nUF0^YAfe2
+!s100 [TBIh<U<@d^>n[07c_>Sk1
+R5
+31
+!i10b 1
+R22
+R23
+R24
+R9
+R10
